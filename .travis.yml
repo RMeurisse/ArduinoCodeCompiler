@@ -1,0 +1,22 @@
+language: php
+php:
+  - 5.5
+
+before_install:
+  - sudo apt-get update
+
+before_script:
+  - scripts/install.sh
+  - cd /opt/codebender/compiler/Symfony
+script:
+  - mkdir -p build/logs
+  - ../scripts/run_tests.sh
+
+after_script:
+ - php bin/coveralls -v
+
+notifications:
+  irc: "chat.freenode.net#codebender.cc"
+  email:
+    recipients:
+      - girder@codebender.cc
