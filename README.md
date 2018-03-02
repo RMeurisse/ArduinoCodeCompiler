@@ -1,7 +1,4 @@
-This repository is part of the [codebender.cc](http://www.codebender.cc) maker and artist web platform. 
-
-[![Build Status](https://travis-ci.org/codebendercc/compiler.svg?branch=master)](https://travis-ci.org/codebendercc/compiler) 
-[![Coverage Status](https://coveralls.io/repos/codebendercc/compiler/badge.svg?branch=master)](https://coveralls.io/r/codebendercc/compiler?branch=master)
+This repository is part of the [codebender.cc](http://www.codebender.cc) maker and artist web platform.
 
 ## And what's that?
 
@@ -22,8 +19,6 @@ Here's a list of open source projects we use
 
 For development we've run it on a variety of Linux and Mac OS X machines.
 
-For production we are using Ubuntu Server 12.04. We know the compiler works perfectly on it, so we suggest you using it as well.
-
 ## How to install
 
 Check out the code in any directory you wish
@@ -32,7 +27,8 @@ Check out the code in any directory you wish
 
 Then cd in the created directory (if you run the command as is above, it would be named `compiler`) and run
 
-`scripts/install.sh`
+`cd ArduinoCodeCompiler`
+`bash scripts/install.sh`
 
 (don't cd into scripts directory and run install.sh from there, it won't work)
 
