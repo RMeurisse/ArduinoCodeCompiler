@@ -35,6 +35,11 @@ Then cd in the created directory (if you run the command as is above, it would b
 If you now visit `http://localhost/status` you'll see a JSON response telling you everything's ok: 
 `{"success":true,"status":"OK"}`
 
+## Making changes
+It is important to install composer to make changes to the project! 
+If you made changes, recommended to run `app/console cache:clear`.
+Starting the server can be done by running `app/console server:run`.
+
 ## What's next?
 
 Visit the [wiki](https://github.com/codebendercc/compiler/wiki) for more information.
